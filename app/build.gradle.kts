@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.myalertdialog"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.myalertdialog"
@@ -32,7 +32,7 @@ android {
 }
 
 dependencies {
-
+    //Android
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
